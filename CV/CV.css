@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(40, 50%, 60%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(40, 100%, 85%);
+    align-items: center;
+    max-width: 100%;
+}
+
+h1{
+    display: flex;
+    flex-direction: row;
+    font-style: italic;
+}
+
+hr{
+    width: 95%;
+    border-color: hsl(40, 100%, 35%);
+    background-color: hsl(40, 100%, 35%);
+}
+
+#firstSection{
+    display: flex;
+    margin: auto;
+    background-color: hsl(40, 100%, 85%);
+    max-width: 95%;
+}
+
+#secondSection{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    
+}
+
+
+img{
+    display: flex;
+    width: 400px;
+    height: 300px;
+    padding: 10px;    
+}
+
+#description{
+    padding: 10px;
+}
+#movies{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 10px;
+    margin-inline: 1px;
+}
+#awards{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 10px;
+}
+
+@media screen and (max-width: 700px){
+    #firstSection {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        background-color: hsl(40, 100%, 85%);
+    }
+}
+@media screen and (max-width: 770px) {
+    
+    #secondSection{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+}
